@@ -13,8 +13,9 @@ function submitSearch() {
         var name = urlEncode($(".media-row .media-input").val());
         url += name;
         $.ajax({
-            dataType: "json",
+            dataType: "jsonp",
             url: url,
+            type: "GET",
             success: function (data) {
                 console.log(data);
             }
