@@ -14,9 +14,8 @@ function initialize() {
         $("#summary").text(summary);
     }
     if (w_link !== "null") {
-        $("#summary").append("<br><a href=\"" + w_link + "\">Wikipedia</a>");
+        $("#summary").append("<br><br><a href=\"" + w_link + "\">Wikipedia</a>");
     }
-    console.log(type)
     $("#name").text(name);
     switch (type) {
         case ("author"):
@@ -56,7 +55,9 @@ function getGameLink(name) {
         success: function(data) {
             console.log(data);
             var games = data.applist.apps.app;
+            console.log(games);
             for (var i = 0; i < games.length; i++) {
+                console.log(games[i]);
                 if (games[i].name.toLowerCase() === name.toLowerCase()) {
                     app_id = games[i].appid;
                     break;
