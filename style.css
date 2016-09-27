@@ -5,10 +5,10 @@ body {
 div {
 	background-color: black;
 	width: 5000px;
-	height: 5000px;
 	border 10px grey;
 	padding 25px;
 	margin: 25px;
+	position: relative;
 }
 /*
 div {
@@ -17,7 +17,6 @@ div {
 	height: auto;
 	position: center;
 }*/
-
 h1 {
 	font-family: Sacramento;
 	margin: 5px;
