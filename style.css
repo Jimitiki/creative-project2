@@ -4,7 +4,7 @@ body {
 
 div {
 	background-color: black;
-	width: 800px;
+	width: 95%;
 	border 10px grey;
 	padding 25px;
 	margin: 25px;
@@ -23,7 +23,7 @@ h1 {
 	color: white;
 	font-size: 95px;
 	text-shadow: 2px 2px gray;
-	text-position: center;
+	position: center;
 }
 h3 {
 	font-family: Sacramento;
@@ -31,13 +31,13 @@ h3 {
 	color: white;
 	font-weight: lighter;	
 	font-size: 30;
-	text-position: center;
+	text-position: relative;
 }
 p {
 	font-family: lora;
 	color: white;
 	font-weight: lighter;
-	font-size: 19px;
+	font-size: 12px;
 	padding: 10px;
 	text-position: center;
 }
