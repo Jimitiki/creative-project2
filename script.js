@@ -12,6 +12,8 @@ function initialize() {
 }
 
 function submitSearch() {
+    $("#search").attr("disabled", true);
+    $("#results").text("");
     $(".media-result").remove();
     this.results = [];
     var url = "https://www.tastekid.com/api/similar?k=241156-MediaRec-C9L3QQKV&info=1&q=";
@@ -30,10 +32,11 @@ function submitSearch() {
         url: url,
         success: function (data) {
             console.log(data);
+            $("#search").attr("disabled", false);
             for (var i in data.Similar.Results) {
                 var result = data.Similar.Results[i];
                 var el = "<div class=\"media-result\"><a class=\"media-link\" id=\"" + i +"\">" + 
-                    result.Name + ", " + result.Type + "</a><br></div>";
+                    result.Name + " - " + result.Type + "</a><br></div>";
                 $("#results").append(el);
                 results.push({
                     name: result.Name,
@@ -42,6 +45,9 @@ function submitSearch() {
                     summary: result.wTeaser,
                     w_link: result.wUrl
                 })
+            }
+            if (data.Similar.Results.length == 0) {
+                $("#results").text("No results were found")
             }
             $(".media-link").on("click", function() {
                 viewSelection(event.target);

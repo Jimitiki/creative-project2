@@ -57,7 +57,6 @@ function getGameLink(name) {
             var games = data.applist.apps.app;
             console.log(games);
             for (var i = 0; i < games.length; i++) {
-                console.log(games[i]);
                 if (games[i].name.toLowerCase() === name.toLowerCase()) {
                     app_id = games[i].appid;
                     break;
@@ -91,7 +90,6 @@ function getBandLink(name) {
             limit: 1
         },
         success: function (data) {
-            console.log(data);
             var sURL = data.artists.items[0].external_urls.spotify;
             if (sURL) {
                 $("#media-links").append("<a class=\"media-link\" href=\"" + sURL + "\">Spotify</a> ");
@@ -108,7 +106,6 @@ function getBandLink(name) {
             limit: 1
         },
         success: function (data) {
-            console.log(data);
             var iURL = data.results[0].artistLinkUrl;
             if (iURL) {
                 $("#media-links").append("<a class=\"media-link\" href=\"" + iURL + "\">iTunes</a>");
