@@ -8,7 +8,6 @@ div {
 	border 10px grey;
 	padding 25px;
 	margin: 25px;
-	position: center;
 }
 /*
 div {
@@ -23,7 +22,6 @@ h1 {
 	color: black;
 	font-size: 95px;
 	text-shadow: 2px 2px gray;
-	position: center;
 }
 h3 {
 	font-family: Sacramento;
@@ -31,7 +29,6 @@ h3 {
 	color: black;
 	font-weight: lighter;	
 	font-size: 30;
-	position: relative;
 }
 p {
 	font-family: lora;
@@ -39,6 +36,5 @@ p {
 	font-weight: lighter;
 	font-size: 20px;
 	padding: 10px;
-	position: center;
 }
 
