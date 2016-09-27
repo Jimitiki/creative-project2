@@ -53,9 +53,7 @@ function getGameLink(name) {
         url: "games.json",
         datatype: "json",
         success: function(data) {
-            console.log(data);
             var games = data.applist.apps.app;
-            console.log(games);
             for (var i = 0; i < games.length; i++) {
                 if (games[i].name.toLowerCase() === name.toLowerCase()) {
                     app_id = games[i].appid;

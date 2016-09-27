@@ -25,13 +25,11 @@ function submitSearch() {
         if (index >= 0 && num_fields > 1 && index < num_fields - 1 && name) {
             url += "%2C+";
         }
-        console.log(url);
     });
     $.ajax({
         dataType: "jsonp",
         url: url,
         success: function (data) {
-            console.log(data);
             $("#search").attr("disabled", false);
             for (var i in data.Similar.Results) {
                 var result = data.Similar.Results[i];
@@ -57,7 +55,6 @@ function submitSearch() {
 }
 
 function viewSelection(link) {
-    console.log(this.results);
     var result = this.results[$(link).attr("id")];
     localStorage.setItem("name", result.name);
     localStorage.setItem("type", result.type);
