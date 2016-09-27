@@ -2,18 +2,24 @@ body {
 	background-image: url("https://images7.alphacoders.com/410/410563.jpg")
 }
 div.main-body {
+	background-color: transparent grey;
+	width: 500px;
+	border 10px transparent black;
+	padding 25px;
+	margin:25px;
+}
+/*
 	border-radius: 10px;
 	/*position: fixed;*/
-	z-index: 2;
+/*	z-index: 2;
 	margin: 10px; 
-	/*background-image: url("https://images7.alphacoders.com/410/410563.jpg");*/
 	width: 50%
 	height: 200px;
 	float: right;
 	boarder: 50% transparent black;
 	padding: 10px;
 	margin: 10px;
-}
+*/
 div {
 	margin: 50px;
 	width: 100%;
