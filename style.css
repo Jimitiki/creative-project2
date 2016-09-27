@@ -1,4 +1,4 @@
-div.inputs {{
+#main-body {
 	border-radius: 10px;
 	/*position: fixed;*/
 	z-index: 2;
@@ -8,24 +8,19 @@ div.inputs {{
 	height: 200px;
 	float: right;
 }
-/*div.right {
+div {
+	margin: 50px;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+div.inputs {
 	border-radius: 10px;
 	float: right;
 	position: relative;
 	margin: 5px;
 }
-div.black {
-	border-radius: 10px;
-	float: right;
-	position: relative;
-	margin: 5px;
-	background-color: black;
-}
-#main-body {
-	border-radius: 5px;
-	clear: both;
-	position: relative;
-}
+
 
 h1 {
 	font-family: Sacramento;
@@ -41,4 +36,4 @@ p {
 	font-size: 19px;
 	padding: 10px;
 }
-*/
+
