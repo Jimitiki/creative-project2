@@ -24,12 +24,12 @@ div {
 	margin: 50px;
 	width: 100%;
 	height: auto;
-	position: relative;
+	position: center;
 }
 div.inputs {
 	border-radius: 10px;
 	float: right;
-	position: relative;
+	position: center;
 	margin: 5px;
 }
 
@@ -40,6 +40,14 @@ h1 {
 	color: white;
 	font-size: 95px;
 	text-shadow: 2px 2px gray;
+}
+h3 {
+	font-family: Sacramento;
+	margin: 5px;
+	color: white;
+	font-weight: lighter;	
+	font-size: 30;
+	padding: 10px;
 }
 p {
 	font-family: lora;
