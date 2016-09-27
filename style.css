@@ -1,12 +1,18 @@
+body {
+	background-image: url("https://images7.alphacoders.com/410/410563.jpg")
+}
 #main-body {
 	border-radius: 10px;
 	/*position: fixed;*/
 	z-index: 2;
 	margin: 10px; 
-	background-image: url("https://images7.alphacoders.com/410/410563.jpg");
-	width: 100%
+	/*background-image: url("https://images7.alphacoders.com/410/410563.jpg");*/
+	width: 50%
 	height: 200px;
 	float: right;
+	boarder: 50% transparent black;
+	padding: 10px;
+	margin: 10px;
 }
 div {
 	margin: 50px;
