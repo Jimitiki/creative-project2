@@ -5,7 +5,7 @@ body {
 div {
 	background-color: white;
 	width: 900px;
-	height: 900px;
+	height: 300px;
 	border 10px grey;
 	padding 25px;
 	margin: 25px;
@@ -38,7 +38,7 @@ p {
 	font-family: lora;
 	color: black;
 	font-weight: lighter;
-	font-size: 24px;
+	font-size: 20px;
 	padding: 10px;
 	position: center;
 }
