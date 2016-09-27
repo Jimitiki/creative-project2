@@ -1,39 +1,99 @@
+/*#search {
+    margin: 0 auto;
+}
+#main-body {
+    width: 60vw;
+    margin: 0 auto;
+}
 body {
-	background-image: url("https://images7.alphacoders.com/410/410563.jpg")
+    color: #2D3645;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    font-family: tahoma;
 }
-
-div {
-	background-color: white;
-	width: 950px;
-	border 10px grey;
-	padding 25px;
-	margin: 25px;
+#summary {
+    text-align: justify;
 }
-/*
-div {
-	margin: 350px;
-	width: 100%;
-	height: auto;
-	position: center;
+#instructions {
+    padding: 0 5vw;
+    text-align: justify;
+}
+#media-links {
+    text-align: left;
+}
+select {
+    margin-left: 10px;
+}
+a {
+    color: #2D3645;
+    text-decoration: none;
+}
+a:hover {
+    color: #50607c;
+    cursor: pointer;
+}
+.btn {
+    margin: 10px 60px;
 }*/
+body {
+	background-image: url("https://images7.alphacoders.com/410/410563.jpg");
+    text-align: center;
+    margin: 0px;
+    color: #2D3645;
+}
+#title {
+    text-align: center;
+    width: 100%
+}
+#foreground-container {
+    margin: 40px auto 5vh auto;
+    width: 90vw;
+    height: ;
+    background-color: #E8E8E8;
+    padding: 50px;
+}
+#main-body {
+    width: 55vw;
+    margin: 0 auto;
+}
+#results {
+    margin-top: 60px;
+}
+.media-result {
+    margin: 4px 0;
+}
+.media-row {
+    margin-bottom: 6px;
+}
 h1 {
 	font-family: Sacramento;
 	margin: 5px;
-	color: black;
-	font-size: 95px;
+	font-size: 52px;
 	text-shadow: 2px 2px gray;
 }
 h3 {
 	font-family: Sacramento;
 	margin: 5px;
-	color: black;
 	font-weight: lighter;	
 	font-size: 30;
 }
+a {
+    font-family: lora;
+    color: #2D3645;
+}
+a:hover {
+    color: #555555;
+    cursor: pointer;
+}
 p {
 	font-family: lora;
-	color: black;
 	font-weight: lighter;
 	font-size: 20px;
 }
-
+#video-link {
+    display: none;
+    width: 560px;
+    height: 315px;
+    margin: 40px 0;
+}

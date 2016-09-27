@@ -4,27 +4,29 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div id="main-body">
-        <h1>Entertain Me</h1>
-        <h3>Receive media recommendation based on your tastes</h3>
-        <div id="inputs">
-            <p id="instructions">Enter a name and select the type of entertainment to find similar media. You can add more terms to 
-                narrow your search, this works best if you choose similar media. Then, submit your search and click on
-                the suggestions to find out more.
-            </p><br>
-            <span class="media-row"><input type="text" class="media-input"><select class="media-type">
-                    <option value="author">Author</option>
-                    <option value="music">Band</option>
-                    <option value="book">Book</option>
-                    <option value="game">Game</option>
-                    <option value="movie">Movie</option>
-                    <option value="show">TV Show</option>
-                </select>
-            </span><br>
+    <div id="foreground-container">
+        <div id="main-body">
+            <div id="title"><h1>Entertain Me</h1></div>
+            <h3>Receive media recommendation based on your tastes</h3>
+            <div id="inputs">
+                <p id="instructions">Enter a name and select the type of entertainment to find similar media. You can add more terms to 
+                    narrow your search, this works best if you choose similar media. Then, submit your search and click on
+                    the suggestions to find out more.
+                </p><br>
+                <span class="media-row"><input type="text" class="media-input"><select class="media-type">
+                        <option value="author">Author</option>
+                        <option value="music">Band</option>
+                        <option value="book">Book</option>
+                        <option value="game">Game</option>
+                        <option value="movie">Movie</option>
+                        <option value="show">TV Show</option>
+                    </select>
+                </span><br>
+            </div>
+            <input type="button" id="add" class="btn" value="Add Media">
+            <input type="button" id="search" class="btn" value="Search">
+            <div id="results"></div>
         </div>
-        <input type="button" id="add" class="btn" value="Add Media">
-        <input type="button" id="search" class="btn" value="Search">
-        <div id="results"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--script type="text/javascript" src="jquery-3.1.0.min.js"></script-->
