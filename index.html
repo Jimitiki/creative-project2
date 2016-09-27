@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Media Recommender</title>
-    <link rel="stylesheet" type="style/css" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
     <div id="inputs">
@@ -9,15 +9,18 @@
             <input type="text" class="media-input">
             <select class="media-type">
                 <option value="author">Author</option>
-                <option value="band">Band</option>
+                <option value="music">Band</option>
                 <option value="book">Book</option>
                 <option value="game">Game</option>
                 <option value="movie">Movie</option>
                 <option value="show">TV Show</option>
             </select>
-        </span>
+        </span><br>
     </div>
-    <input type="button" id="search-btn" value="Search">
+    <input type="button" id="add" class="btn" value="Add a Row">
+    <br><input type="button" id="search" class="btn" value="Search">
+    <div id="results"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--script type="text/javascript" src="jquery-3.1.0.min.js"></script-->
     <script type="text/javascript" src="script.js"></script>
 </body>
