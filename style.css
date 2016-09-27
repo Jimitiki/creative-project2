@@ -1,38 +1,20 @@
 body {
 	background-image: url("https://images7.alphacoders.com/410/410563.jpg")
 }
-main-body {
+div {
 	background-color: black;
 	width: 500px;
 	border 10px grey;
 	padding 25px;
 	margin:25px;
 }
-/*
-	border-radius: 10px;
-	/*position: fixed;*/
-/*	z-index: 2;
-	margin: 10px; 
-	width: 50%
-	height: 200px;
-	float: right;
-	boarder: 50% transparent black;
-	padding: 10px;
-	margin: 10px;
-*/
+
 div {
 	margin: 50px;
 	width: 100%;
 	height: auto;
 	position: center;
 }
-div.inputs {
-	border-radius: 10px;
-	float: right;
-	position: center;
-	margin: 5px;
-}
-
 
 h1 {
 	font-family: Sacramento;
@@ -47,7 +29,6 @@ h3 {
 	color: white;
 	font-weight: lighter;	
 	font-size: 30;
-	padding: 10px;
 }
 p {
 	font-family: lora;
