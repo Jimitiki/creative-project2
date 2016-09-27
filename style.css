@@ -3,8 +3,9 @@ body {
 }
 
 div {
-	background-color: black;
+	background-color: white;
 	width: 900px;
+	height: 900px;
 	border 10px grey;
 	padding 25px;
 	margin: 25px;
@@ -20,7 +21,7 @@ div {
 h1 {
 	font-family: Sacramento;
 	margin: 5px;
-	color: white;
+	color: black;
 	font-size: 95px;
 	text-shadow: 2px 2px gray;
 	position: center;
@@ -28,17 +29,17 @@ h1 {
 h3 {
 	font-family: Sacramento;
 	margin: 5px;
-	color: white;
+	color: black;
 	font-weight: lighter;	
 	font-size: 30;
-	text-position: relative;
+	position: relative;
 }
 p {
 	font-family: lora;
-	color: white;
+	color: black;
 	font-weight: lighter;
 	font-size: 24px;
 	padding: 10px;
-	text-position: center;
+	position: center;
 }
 
