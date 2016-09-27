@@ -1,20 +1,21 @@
 body {
 	background-image: url("https://images7.alphacoders.com/410/410563.jpg")
 }
+
 div {
 	background-color: black;
 	width: 500px;
 	border 10px grey;
 	padding 25px;
-	margin:25px;
+	margin:325px;
 }
-
+/*
 div {
-	margin: 50px;
+	margin: 350px;
 	width: 100%;
 	height: auto;
 	position: center;
-}
+}*/
 
 h1 {
 	font-family: Sacramento;
